@@ -6,8 +6,6 @@
     "jest": true
   },
   "rules": {
-    "no-unused-vars": "warn",
-    "semi": ["error", "always"],
-    "quotes": ["error", "double"]
+    "no-restricted-syntax": ["error", "LabeledStatement", "WithStatement"]
   }
 }
